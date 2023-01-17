@@ -14,6 +14,6 @@
               $stmt = $connect->prepare($sql);
               $stmt->execute();
               //Return data
-              return $data = $stmt->fetchAll(PDO::FETCH_OBJ);
+              return $data = $stmt->fetchAll(PDO::FETCH_ASSOC);
           }
     }

@@ -14,13 +14,13 @@
             $username = 'Jose';
 		
             $headers = array('alg'=>'HS256','typ'=>'JWT');
-            $payload = array('username'=>$username, 'exp'=>(time() + 60));
+            $payload = array('username'=>$username, 'exp'=>(time() + 30000));
 
             $token = $jwt->generate_jwt($headers, $payload);
             
             echo json_encode(array('token' => $token));
         }
-        public function users()
+        public function usuario()
         {
             $jwt = new JWT();
 

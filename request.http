@@ -1,0 +1,6 @@
+GET https://api.avplustuoptica.com/v1/pacientes/veteranos HTTP/1.1
+
+
+Content-Type: 'application/json'
+
+Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im9zY2FyIiwiZXhwIjoxNzA1NTQyNTk3fQ._NfcR-hfqVXIH3rBg9O4u5bJt9INwakSqFREyM1e0tc'
